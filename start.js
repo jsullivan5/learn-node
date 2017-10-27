@@ -19,6 +19,9 @@ mongoose.connection.on('error', (err) => {
 
 // READY?! Let's go!
 
+// Imoprt all the models
+require('./models/Store');
+
 
 // Start our app!
 const app = require('./app');
